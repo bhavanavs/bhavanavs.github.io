@@ -1,6 +1,17 @@
 ---
 ---
 
+@inproceedings{HotNets22,
+  abbr={HotNets '22},
+  author={Bhavana Vannarth Shobhana and Srinivas Narayana Ganapathy and Badri Nath},
+  title={Load Balancers Need In-Band Feedback Control},
+  year={2022},
+  booktitle={HotNets 2022: Twenty-First ACM Workshop on Hot Topics in Networks},
+  abstract={Load balancers (LBs) are critical components of interactive services today, distributing client requests over a server pool to improve performance and availability. LBs enable application logic to scale out to a pool of replicated servers, improving application performance by avoiding hot spots. LBs may run as frontends, routing client requests arriving from the Internet to the server pool. LBs may also run as tier-to-tier load balancers, scaling out a single application tier (e.g., an in-memory database) of a complex application, routing requests sent from other tiers. LBs may run at layer-4 (using connection 4-tuples) or layer-7 (e.g., using HTTP-based service identifiers) to map requests to servers. There are a wide variety of solutions available for load balancing. Majority of these solutions depends on measurements - derived via visibility of request and response on LB or out-of band server metrics or logs collected from the server, for making the decisions as where to forward client request.  A key challenge for LBs when they only process requests and not responses is that it cannot directly measure server performance. We propose an in-band feedback control operating purely locally at LBs to adapt request-routing to server performance. We present an initial design of an LB that adapts to a server latency inflation of 1 ms and reduces tail latencies in milliseconds, while only observing client-to-server traffic},
+  selected={true},
+  url = {}
+}
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1956investigations,
@@ -42,7 +53,7 @@
   url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
   html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
   pdf={example_pdf.pdf},
-  selected={true}
+  selected={false}
 }
 
 @article{einstein1905molekularkinetischen,
