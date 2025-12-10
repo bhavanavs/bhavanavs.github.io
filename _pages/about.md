@@ -6,7 +6,7 @@ subtitle: PhD Student. Computer Science. <a href='#'></a>Rutgers University.
 
 profile:
   align: right
-  image: Photo_1.jpg
+  image: Photo_2.jpg
   image_circular: false # crops the image to make it circular
   address: #>
     #<p>555 your office number</p>
