@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student. Computer Science. <a href='#'></a>Rutgers University.
+subtitle: PhD Candidate. Computer Science. <a href='#'></a>Rutgers University.
 
 profile:
   align: right
