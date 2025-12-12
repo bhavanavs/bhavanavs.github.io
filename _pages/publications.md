@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-nav: true
+nav: false 
 years: [2025, 2022]
 ---
 <!-- _pages/publications.md -->
